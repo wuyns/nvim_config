@@ -53,6 +53,10 @@ return require('packer').startup(function(use)
         use 'ellisonleao/gruvbox.nvim'
         use 'tanvirtin/monokai.nvim'
 
+        -- 工具
+        use 'nvim-tree/nvim-tree.lua' -- 文件树
+        use 'nvim-tree/nvim-web-devicons' -- 文件树图标
+
         -- Automatically set up your configuration after cloning packer.nvim
         -- Put this at the end after all plugins
         if packer_bootstrap then
