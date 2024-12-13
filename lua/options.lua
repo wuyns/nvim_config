@@ -1,3 +1,5 @@
+vim.g.node_host_prog = '/run/current-system/sw/bin/node' -- 指定nodejs的位置，适用于NixOS
+
 vim.opt.clipboard = 'unnamedplus' -- 使用系统剪切板
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
 vim.opt.mouse = 'a' -- 启用鼠标操作
